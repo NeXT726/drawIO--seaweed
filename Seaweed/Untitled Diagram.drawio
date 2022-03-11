@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T07:40:02.238Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="ydC5j8xX86vPa5wo_rKa" version="17.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-11T10:47:07.254Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="AdIblys_X7PAT2RMTdLW" version="17.1.0" type="github" pages="2">
   <diagram id="TKP_l_NkvEUhYhY9nVAE" name="Seaweed Main">
-    <mxGraphModel dx="1126" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4549" dy="2407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,6 +109,9 @@
         <mxCell id="2QZp9TgIWVi5iaSMI0KW-57" value="Parse URL" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1056" y="1350" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endArrow=classic;endFill=1;" edge="1" parent="1" source="2QZp9TgIWVi5iaSMI0KW-58" target="15eAGh1jQoI95knw8WYW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2QZp9TgIWVi5iaSMI0KW-58" value="Has Volume?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1056" y="1410" width="120" height="60" as="geometry" />
         </mxCell>
@@ -157,7 +160,7 @@
             <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2QZp9TgIWVi5iaSMI0KW-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="2QZp9TgIWVi5iaSMI0KW-72" source="2QZp9TgIWVi5iaSMI0KW-58" target="2QZp9TgIWVi5iaSMI0KW-61">
+        <mxCell id="2QZp9TgIWVi5iaSMI0KW-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="2QZp9TgIWVi5iaSMI0KW-72" source="2QZp9TgIWVi5iaSMI0KW-58" target="2QZp9TgIWVi5iaSMI0KW-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2QZp9TgIWVi5iaSMI0KW-70" value="local" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="2QZp9TgIWVi5iaSMI0KW-63">
@@ -177,8 +180,10 @@
         <mxCell id="2QZp9TgIWVi5iaSMI0KW-78" value="LookupVolumeId()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1396" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2QZp9TgIWVi5iaSMI0KW-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="2QZp9TgIWVi5iaSMI0KW-58" target="2QZp9TgIWVi5iaSMI0KW-78">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2QZp9TgIWVi5iaSMI0KW-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="2QZp9TgIWVi5iaSMI0KW-58" target="2QZp9TgIWVi5iaSMI0KW-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="1430" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2QZp9TgIWVi5iaSMI0KW-69" value="!local" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="2QZp9TgIWVi5iaSMI0KW-68">
           <mxGeometry x="0.4743" y="-2" relative="1" as="geometry">
@@ -264,6 +269,75 @@
         </mxCell>
         <mxCell id="m3TdbjdQiPVTBEU5k6JC-16" value="redirect" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2060" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="1760" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-4" value="ReadVolumeNeedle()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;endArrow=classic;endFill=1;" edge="1" parent="1" source="15eAGh1jQoI95knw8WYW-7" target="15eAGh1jQoI95knw8WYW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-7" value="findVolume()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;endArrow=classic;endFill=1;" edge="1" parent="1" source="15eAGh1jQoI95knw8WYW-10" target="15eAGh1jQoI95knw8WYW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-10" value="readNeedle()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="1900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;endArrow=classic;endFill=1;" edge="1" parent="1" source="15eAGh1jQoI95knw8WYW-6" target="15eAGh1jQoI95knw8WYW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-12" value="根据Store中的Locations（是个map）找到vid对应的volume" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1441" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1441" y="1900" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-14" value="readNeedle()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1441" y="1900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;endArrow=classic;endFill=1;" edge="1" parent="1" source="15eAGh1jQoI95knw8WYW-17" target="15eAGh1jQoI95knw8WYW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-17" value="Get()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1441" y="1980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;endArrow=classic;endFill=1;" edge="1" parent="1" source="15eAGh1jQoI95knw8WYW-18" target="15eAGh1jQoI95knw8WYW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-18" value="ReadData()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1441" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-19" value="根据needleId得到needle在volume中的offset和size" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1641" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1641" y="2040" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-21" value="ReadData()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1641" y="2040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endArrow=classic;endFill=1;" edge="1" parent="1" source="15eAGh1jQoI95knw8WYW-24" target="15eAGh1jQoI95knw8WYW-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-24" value="ReadNeedleBlob()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1641" y="2120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endArrow=classic;endFill=1;" edge="1" parent="1" source="15eAGh1jQoI95knw8WYW-25" target="15eAGh1jQoI95knw8WYW-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-25" value="ReadBytes" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1641" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-26" value="根据offset和size读出needle的所有数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="2120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="15eAGh1jQoI95knw8WYW-27" value="根据上面读到的数据写入needle结构体中" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="2180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
