@@ -1,14 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T08:22:45.555Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="CTheKFZk5bXM1Wy2qPB0" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T08:28:52.580Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="R7QsTG36Mh9X6b1thaL9" version="17.1.0" type="github">
   <diagram id="ZUv0kWveBhRgq61k_FSB" name="GET handler">
-    <mxGraphModel dx="2377" dy="1282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="1099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="A5UkUH_RqDgsUybbbhkv-34" value="Alt/Opt" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
+        <mxCell id="A5UkUH_RqDgsUybbbhkv-34" value="Alt" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="30" y="720" width="980" height="260" as="geometry" />
         </mxCell>
         <mxCell id="A5UkUH_RqDgsUybbbhkv-2" value="client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="100" height="2100" as="geometry" />
+        </mxCell>
+        <mxCell id="mglZLB-PgXWjHyMi0s8r-18" value="Opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="A5UkUH_RqDgsUybbbhkv-2">
+          <mxGeometry x="-30" y="530" width="1020" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="mglZLB-PgXWjHyMi0s8r-19" value="!HasVolume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="A5UkUH_RqDgsUybbbhkv-2">
+          <mxGeometry x="-30" y="570" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A5UkUH_RqDgsUybbbhkv-3" value=":VolumeServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="40" width="140" height="2090" as="geometry" />
